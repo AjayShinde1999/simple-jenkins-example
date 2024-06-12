@@ -8,7 +8,7 @@ public class WelcomeController {
 
     @GetMapping("/welcome")
     public String view() {
-        System.out.println("HELLO HOW R U?");
+        System.out.println("HELLO HOW R U??");
         return "W E L C O M E !";
     }
 
